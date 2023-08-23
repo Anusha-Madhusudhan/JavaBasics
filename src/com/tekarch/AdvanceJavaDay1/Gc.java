@@ -7,6 +7,7 @@ public class Gc {
 		
 		//super.finalize();
 		System.out.println("nnnnnnn");
+		System.out.println("MMMMMMMMMMM");
 	}
 
 	public static void main(String[] args) {
@@ -17,7 +18,8 @@ public class Gc {
 		i2=null;
 		
 		System.gc();
-		
+		System.out.println("MMMMMMMMMMM");
+		System.out.println("MMMMMMMMMMM");
 
 	}
 
